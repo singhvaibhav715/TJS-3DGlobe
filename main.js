@@ -20,6 +20,9 @@ document.body.appendChild(renderer.domElement);
 new OrbitControls( camera, renderer.domElement );
 camera.position.z = 5;
 
+
+const 
+
 function onWindowResize(){
 
     camera.aspect = window.innerWidth / window.innerHeight;
